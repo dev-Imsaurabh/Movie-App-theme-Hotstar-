@@ -1,0 +1,127 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#loader{
+    position: fixed;
+    z-index: 10;
+    left: 0; 
+    right: 0; 
+    display: none;
+    border-radius: 20px;
+    margin-top: 200px;
+  margin-left: auto; 
+  margin-right: auto; 
+  
+
+}
+
+#login{
+  width: 3%;
+}
+
+#searchDiv{
+  width: 98%;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+
+}
+
+#searchDiv>div{
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#searchDiv>div>img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#results{
+  padding: 0px 20px;
+  color: white;
+}
+
+#search-Div{
+  width:40%;
+  margin-top: 30px;
+  position: relative;
+
+}
+
+#search-Div>input{
+
+  display:inline-block;
+    position: relative;
+    color: white;
+     width: 100%;
+    padding: 8px 8px;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+#search-Div>input::placeholder{
+  color: rgb(197, 197, 197);
+  font-size: 16px;
+}
+#search-Div>div{
+  position: absolute;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color: #030b17;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+#search-Div>div::-webkit-scrollbar{
+  overflow-y: hidden;
+}
+
+#search-Div>div>div{
+display: flex;
+gap: 10px;
+border: 10px;
+cursor: pointer;
+background-color: #131a28;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+margin: 8px;
+
+
+
+
+}
+
+#search-Div>div>div:hover{
+  transform: scale(1.02,1.02);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  transition: transform 0.5s;
+}
+#search-Div>div>div>div{
+  width: 35%;
+  display: grid;
+  place-items: center;
+
+}
+
+#search-Div>div>div>div>img{
+  width:100px;
+  height: 100px;
+  /* border-radius: 5px; */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+#search-Div>div>div>h3{
+  padding: 0px 16px;
+  width: 65%;
+  
+  color: white;
+}
