@@ -3,10 +3,10 @@ This is a basic clone of Disney+Hotstan which I have created using OMDB Api. I h
 I have used concept of debouncing where I am trying to reduce API calls done by the user during searching any movie and minimizing server cost. 
 
 # Features
-Movie searching using OMDB Api
-Reducing Api calls using Debouncing concept.
-Sorting by ratings
-Info about any movie.
+Movie searching using OMDB Api<br/>
+Reducing Api calls using Debouncing concept <br/>
+Sorting by ratings <br/>
+Info about any movie <br/>
 
 # Deployed Link
 <a href="https://hotstar-fw21-1003.netlify.app/search.html">Demo</a>
