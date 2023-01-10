@@ -2,6 +2,9 @@
 This is a basic clone of Disney+Hotstan which I have created using OMDB Api. I have added search feature.
 I have used concept of debouncing where I am trying to reduce API calls done by the user during searching any movie and minimizing server cost. 
 
+<center><img src="" width="90%"></img></center>
+
+
 # Features
 Movie searching using OMDB Api<br/>
 Reducing Api calls using Debouncing concept <br/>
