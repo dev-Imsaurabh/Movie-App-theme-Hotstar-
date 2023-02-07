@@ -5,11 +5,18 @@ I have used concept of debouncing where I am trying to reduce API calls done by 
 <center><img src="https://github.com/dev-Imsaurabh/image-hosting-repo/blob/master/others/hotstar.png?raw=true" width="90%"></img></center>
 
 
+# Tech Satck
+ - `HTML`
+ - `CSS`
+ - `JavaScript`
+ - `OMDB API`
+
 # Features
-Movie searching using OMDB Api<br/>
-Reducing Api calls using Debouncing concept <br/>
-Sorting by ratings <br/>
-Info about any movie <br/>
+- Movie searching using OMDB Api<br/>
+- Reducing Api calls using Debouncing concept <br/>
+- Sorting by ratings <br/>
+- Info about any movie <br/>
+- Debouncing Technic for api optimization
 
 # Deployed Link
 <a href="https://hotstar-fw21-1003.netlify.app/search.html">Demo</a>
